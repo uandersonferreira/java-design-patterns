@@ -5,11 +5,12 @@ public class Temperature {//Target (alvo/service)
     private double value;
 
     public double getValue(){
-        return this.value;
+        return this.value;//Sempre deve ser expresso em FAHRENHEIT
     }
 
     public void  setValue(double value){
         this.value = value;
+        //Receber um value em FAHRENHEIT
     }
 
 }
