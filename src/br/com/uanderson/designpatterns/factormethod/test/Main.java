@@ -22,8 +22,8 @@ public class Main {
             a instância dele na class Main e então passar para o method 'drawShape'
             ou seja a class Main era sempre modificada.
 
-          Circle shape = new Circle();
-          Square square = new Square();
+          FillCircle shape = new FillCircle();
+          FillSquare square = new FillSquare();
 
           1° - Alternativa: Implementar o FactoryMethod (ler o readme.md)
 

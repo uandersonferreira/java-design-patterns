@@ -1,5 +1,5 @@
 # Design Patter Factory Method
-![Design Pattern Singleton](../../../../../../.github/img/factory-method.png)
+![Design Pattern Factory Method](../../../../../../.github/img/factory-method.png)
 
 - Factory Method - Method que fabrica objetos (uma fabrica)
 - **(Type)** - Normalmente se trabalha com Interface ou classe 
