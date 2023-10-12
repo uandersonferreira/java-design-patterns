@@ -1,6 +1,7 @@
 package br.com.uanderson.designpatterns.adapter.domain;
 
-public class Temperature {//Target
+public class Temperature {//Target (alvo/service)
+    //TEMPERATURE POR DEFAULT E EM FAHRENHEIT
     private double value;
 
     public double getValue(){
@@ -12,10 +13,3 @@ public class Temperature {//Target
     }
 
 }
-/*
-TEMPERATURE POR DEFAULT E EM FAHRENHEIT
-
-- Mas caso eu precise em Celsius ?
-
-
- */
