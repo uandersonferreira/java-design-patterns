@@ -1,6 +1,6 @@
 package br.com.uanderson.designpatterns.abstractfactory.domain.shape;
 
-public class NotFillShapeFactory extends ShapeAbstractFactory{
+public class NotFillShapeFactory extends ShapeAbstractFactory{//3°-Concrete Factory
     private NotFillCircle notFillCircle;
     private NotFillSquare notFillSquare;
     @Override

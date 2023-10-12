@@ -2,7 +2,7 @@ package br.com.uanderson.designpatterns.abstractfactory.domain.shape;
 
 import java.awt.*;
 
-public class NotFillCircle extends Shape {
+public class NotFillCircle extends Shape {//5° - Concrete Product/SubType extends SuperType
 
     @Override
     public void draw(Graphics g) {

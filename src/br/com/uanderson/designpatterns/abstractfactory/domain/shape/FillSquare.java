@@ -2,7 +2,7 @@ package br.com.uanderson.designpatterns.abstractfactory.domain.shape;
 
 import java.awt.*;
 
-public class FillSquare extends Shape {
+public class FillSquare extends Shape {//5° - Concrete Product/SubType extends SuperType
 
     @Override
     public void draw(Graphics g) {

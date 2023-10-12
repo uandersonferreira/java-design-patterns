@@ -1,6 +1,6 @@
 package br.com.uanderson.designpatterns.abstractfactory.domain.shape;
 
-public class ShapeFactoryProducer {
+public class ShapeFactoryProducer {//1°-FactoryProducer
     private static FillShapeFactory fillShapeFactory;
     private static NotFillShapeFactory notFillShapeFactory;
     public static  ShapeAbstractFactory getFactory(boolean fill){
