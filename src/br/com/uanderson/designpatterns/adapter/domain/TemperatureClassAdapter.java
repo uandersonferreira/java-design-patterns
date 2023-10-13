@@ -11,15 +11,16 @@ public class TemperatureClassAdapter extends Temperature{//Adapter de class - he
     }
 
     @Override
-    public void setValue(double value) {
+    public void setValue(double value) {//Valor em Celsius
         super.setValue( ( (value * 9) / 5 ) + 32);
-        //Recebe um value em Fahrenheit é convert para Celsius
-        //Pois o client necessita/espera do/o valor em Celsius
+        //Recebe um value em Celsius é convert para Fahrenheit
+        //Pois por default Temperature é em Fahrenheit.
 
     }
 
     //Podemos ter outros methods, além  dos que devemos sobrescrever
     public double getValueInFahrenheit(){
         return super.getValue();
+        //Retorna o valor de Temperature em Fahrenheit que foi convertido no setValue()
     }
 }
