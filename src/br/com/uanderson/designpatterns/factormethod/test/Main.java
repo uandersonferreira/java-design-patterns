@@ -27,7 +27,7 @@ public class Main {
 
           1° - Alternativa: Implementar o FactoryMethod (ler o readme.md)
 
-                  Shape shape = ShapeFactory.newShape();
+                  ShapeComponent shape = ShapeFactory.newShape();
 
           Após essa implementação desacoplamos os objetos, eliminando a dependência,
           pois criamos uma classe ShapeFactory que possui um method static de SuperType (newShape)
