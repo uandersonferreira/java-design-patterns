@@ -1,6 +1,12 @@
 package br.com.uanderson.designpatterns.templatemethod.domain;
 
 public class Cha extends Bebida{
+    /*
+        Class concreta que herda da class abstrata(modelo) e
+        assim modifica/sobreescrev o comportamento dos methods
+        definidos com abstratos na super class.
+
+     */
     @Override
     public void adicionarAgua() {
         System.out.println("Adicionando água ao Chá");

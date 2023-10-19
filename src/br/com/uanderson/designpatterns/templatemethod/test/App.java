@@ -9,11 +9,11 @@ import br.com.uanderson.designpatterns.templatemethod.domain.Suco;
 public class App {
     public static void main(String[] args) {
         Suco suco = new Suco();
-        suco.preparar();
+        suco.PREPARAR();
 
         System.out.println("==============================");
 
         Cha cha = new Cha();
-        cha.preparar();
+        cha.PREPARAR();
     }
 }
