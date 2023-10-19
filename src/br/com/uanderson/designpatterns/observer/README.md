@@ -1,6 +1,7 @@
 # Design Patter Observer
 Também conhecido como: Observador, Assinante do evento, Event-Subscriber, Escutador, Listener
 
+![Design Pattern Observer](img/observer.png)
 ![Design Pattern Observer](img/observer-01.png)
 
 O padrão Observer (ou Padrão Observador) é um padrão de projeto de software comportamental que 
