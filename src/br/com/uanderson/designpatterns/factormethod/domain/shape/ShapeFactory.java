@@ -2,13 +2,15 @@ package br.com.uanderson.designpatterns.factormethod.domain.shape;
 
 public class ShapeFactory {
     public static Shape newShape() {
-        // Mudar o desenho mesmo após o código ser compilado através de um arquivo de configuração externo.
+        // Mudar o desenho mesmo após o código ser compilado através
+        // de um arquivo de configuração externo (config.properties)
+        //Permitindo a alteração sem mexer no Código já implementado.
 
         try {
             // Obtém a classe da forma a ser criada a partir do arquivo de propriedades "shapeClass"
             String shapeClass = Props.getString("shapeClass");
 
-            // Cria uma instância da classe da forma
+            // Cria uma instância da classe da forma/Shape superType/Type
             Shape shape = (Shape) Class.forName(shapeClass).newInstance();
 
             // Obtém as cores da forma a partir do arquivo de propriedades "color"
@@ -23,7 +25,7 @@ public class ShapeFactory {
 
         } catch (InstantiationException | IllegalAccessException | ClassNotFoundException e) {
             // Em caso de exceção, lançamos uma RuntimeException com a exceção original
-            throw new RuntimeException(e);
+            throw new RuntimeException(e);//não checada (unchecked)
         }
     }//method
 
@@ -46,8 +48,15 @@ public class ShapeFactory {
 }//class
 /*
 Factory Method Estático (Static Factory Method):
+    - Centralização da criação de objetos 'new'
 Em vez de criar uma instância de uma classe Creator, você
 pode ter um método estático na própria classe para criar objetos.
 Isso é semelhante a um Factory Method simples, mas sem a necessidade
 de instanciar a classe Creator.
+
+O método estático pode ser chamado através da seguinte sintaxe:
+
+ShapeFactory.newShape();
+
+
  */

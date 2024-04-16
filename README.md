@@ -43,8 +43,3 @@ tanto boas, quanto ruins.
 - **Structural Patterns** - Padrões de estrutura, que define como iremos compor/construir/modelar as classes e objetos
 - **Behavioral Patterns** - Padrões de comportamento, como as clases e os objetos dividem as responsabilidade
 e como os objetos ou classes se comunicam
-
-
-## Design Patter Strategy
-Mudar um algoritmo durante a execução da aplicação,
-dependendo das circunstâncias.
