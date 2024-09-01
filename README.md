@@ -47,4 +47,7 @@ e como os objetos ou classes se comunicam
 
 Acesse as branches para visualizar a diferença entre os designer patterns
 
+![Guia Design Patterns](.github/img/guia-design-patterns.svg)
+
+
 
