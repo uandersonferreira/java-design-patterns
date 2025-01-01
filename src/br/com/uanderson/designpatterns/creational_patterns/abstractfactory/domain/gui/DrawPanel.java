@@ -2,6 +2,9 @@ package br.com.uanderson.designpatterns.creational_patterns.abstractfactory.doma
 
 import br.com.uanderson.designpatterns.creational_patterns.abstractfactory.domain.shape.Shape;
 
+import javax.swing.*;
+import java.awt.*;
+
 public class DrawPanel extends JPanel {
     private Shape shape;
 

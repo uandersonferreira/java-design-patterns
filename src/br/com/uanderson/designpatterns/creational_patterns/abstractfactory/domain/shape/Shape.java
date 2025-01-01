@@ -1,5 +1,7 @@
 package br.com.uanderson.designpatterns.creational_patterns.abstractfactory.domain.shape;
 
+import java.awt.*;
+
 public abstract class Shape {//4° - Type - Class model for subTypes
     private Color color;
 

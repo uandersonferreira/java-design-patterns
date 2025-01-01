@@ -2,6 +2,8 @@ package br.com.uanderson.designpatterns.creational_patterns.factormethod.domain.
 
 import br.com.uanderson.designpatterns.creational_patterns.factormethod.domain.shape.Shape;
 
+import javax.swing.*;
+
 public class Window {
     private JFrame frame;
     private DrawPanel drawPanel;

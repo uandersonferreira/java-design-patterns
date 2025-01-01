@@ -1,5 +1,7 @@
 package br.com.uanderson.designpatterns.behavioral_patterns.observer.domain;
 
+import javax.swing.*;
+
 public class TextObserver  implements Observer {
     //CONCRETE OBSERVER
     private JTextField txtTemperature;

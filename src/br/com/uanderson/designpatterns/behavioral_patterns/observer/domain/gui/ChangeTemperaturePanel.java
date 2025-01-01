@@ -3,6 +3,7 @@ package br.com.uanderson.designpatterns.behavioral_patterns.observer.domain.gui;
 
 import br.com.uanderson.designpatterns.behavioral_patterns.observer.domain.WeatherForecast;
 
+import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 

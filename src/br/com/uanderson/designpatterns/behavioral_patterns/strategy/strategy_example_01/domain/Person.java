@@ -1,4 +1,4 @@
-package br.com.uanderson.designpatterns.behavioral_patterns.strategy.domain;
+package br.com.uanderson.designpatterns.behavioral_patterns.strategy.strategy_example_01.domain;
 
 public class Person {
     //CONTEXT - QUEM IRÁ FAZER A CHAMADA DAS ESTRATEGIAS E AS EXECUTAR

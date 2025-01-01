@@ -1,5 +1,7 @@
 package br.com.uanderson.designpatterns.creational_patterns.abstractfactory.domain.shape;
 
+import java.awt.*;
+
 public class NotFillSquare extends Shape {//5° - Concrete Product/SubType extends SuperType
 
     @Override

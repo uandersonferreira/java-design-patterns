@@ -1,4 +1,4 @@
-package br.com.uanderson.designpatterns.behavioral_patterns.strategy.domain;
+package br.com.uanderson.designpatterns.behavioral_patterns.strategy.strategy_example_01.domain;
 
 public class RunMovement implements Movement{
     //É UMA DAS ESTRATEGIAS CONCRETAS QUE IMPLEMENTA A INTERFACE SUPER QUE TEMOS

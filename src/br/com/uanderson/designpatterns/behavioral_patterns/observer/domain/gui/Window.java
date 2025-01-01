@@ -1,5 +1,7 @@
 package br.com.uanderson.designpatterns.behavioral_patterns.observer.domain.gui;
 
+import javax.swing.*;
+import java.awt.*;
 
 public class Window {
     private JFrame frame;

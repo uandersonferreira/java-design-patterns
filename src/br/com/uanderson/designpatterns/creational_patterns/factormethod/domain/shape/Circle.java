@@ -1,5 +1,7 @@
 package br.com.uanderson.designpatterns.creational_patterns.factormethod.domain.shape;
 
+import java.awt.*;
+
 public class Circle extends Shape{
 
     @Override
